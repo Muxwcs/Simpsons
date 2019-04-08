@@ -8,11 +8,25 @@
   max-width: 100%;
 }
 .App-logo {
+  animation: App-logo-spin infinite 10s linear;
+  height: 30vmin;
+  pointer-events: none;
+}
+.App-logo-alt {
   animation: App-logo-spin infinite 2s linear alternate;
   height: 30vmin;
   pointer-events: none;
 }
-
+button{
+  border-radius: 100%;
+  box-shadow: 0 0 2em gray;
+}
+.Lamp{
+  margin-bottom: 2%;
+}
+.Lamp figure{
+  right: -5px;
+}
 .App-header {
   background-color: #282c34;
   min-height: 50vh;
